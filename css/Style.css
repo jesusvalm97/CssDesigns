@@ -1,0 +1,3466 @@
+/*******************************
+             Fonts  
+*******************************/
+@font-face {
+    font-family: 'averta';
+    src: url('fonts/averta.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'averta-extra-bold';
+    src: url('fonts/AvertaStd-ExtraBold.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'averta light';
+    src: url('fonts/averta light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'galano grotesque';
+    src: url('fonts/galano grotesque.otf') format('opentype');
+}
+
+.avertabold {
+    font-family: 'averta-extra-bold';
+    font-weight: bold;
+}
+
+.galano {
+    font-family: 'galano grotesque';
+}
+
+.avertaLight {
+    font-family: 'averta light';
+}
+
+/*******************************
+        H1, H2, H3    
+*******************************/
+h1, .H1 {
+    font-family: 'averta-extra-bold';
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+h2, .H2 {
+    font-family: 'galano grotesque';
+    font-size: 2em;
+}
+
+h3, .H3 {
+    font-family: 'galano grotesque';
+    font-size: 1.75em;
+}
+
+h4, .H4 {
+    font-family: 'galano grotesque';
+    font-size: 1.25em;
+}
+
+/*******************************
+         Font Size
+*******************************/
+.Banner1 {
+    font-size: 3em !important;
+}
+
+.mediumText {
+    font-size: 13px;
+}
+
+.smallText {
+    font-size: 10px;
+}
+
+.NineTenthsEm {
+    font-size: 0.9em;
+}
+
+/*******************************
+         Font Color    
+*******************************/
+.textWhiteOpaque {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.textYellow {
+    color: #E2FF22 !important;
+}
+
+.textPurple {
+    color: #AA139A;
+}
+
+.textBlack {
+    color: black;
+}
+
+.textGreen {
+    color: lawngreen;
+}
+
+.textAqua {
+    color: #9EFFFF !important;
+}
+
+.textRed {
+    color: red;
+}
+
+.textGray {
+    color: rgb(207, 210, 251) !important;
+}
+
+.textPink {
+    color: #FF9EF5 !important;
+}
+
+/*******************************
+         General Body    
+*******************************/
+*, body {
+    color: #FFFFFF;
+    font-family: 'averta';
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+}
+
+.boldTexts {
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: none !important;
+}
+
+.ColorsBar {
+    background: radial-gradient(circle, rgba(226,255,34,1) 35%, rgba(245,192,170,1) 50%, rgba(255,158,245,1) 68%, rgba(158,255,255,1) 100%);
+    background-image: linear-gradient(to right, rgba(226,255,34,1), rgba(245,192,170,1), rgba(255,158,245,1), rgba(158,255,255,1));
+    height: 3px;
+    width: 100%;
+}
+
+.ColorsBarHeader {
+    background: radial-gradient(circle, rgba(226,255,34,1) 35%, rgba(245,192,170,1) 50%, rgba(255,158,245,1) 68%, rgba(158,255,255,1) 100%);
+    background-image: linear-gradient(to right, rgba(226,255,34,1), rgba(245,192,170,1), rgba(255,158,245,1), rgba(158,255,255,1));
+    height: 1px;
+    width: 100%;
+}
+
+.lightTexts {
+    font-weight: lighter;
+}
+
+.SemiBoldTexts {
+    font-weight: 600;
+}
+
+.OpaqueTexts {
+    opacity: 0.6;
+}
+
+.BackgroundGray {
+    background-color: rgba(43, 45, 58, 255);
+}
+
+.flowColumn {
+    display: flex !important;
+    flex-direction: column;
+}
+/*******************************
+             Aligns    
+*******************************/
+.TAC {
+    text-align: center;
+}
+
+.TAR {
+    text-align: right;
+}
+
+.TAL {
+    text-align: left !important;
+}
+
+.TAJ {
+    text-align: justify;
+}
+
+/*******************************
+      Margins And Paddings    
+*******************************/
+.MarginMedium {
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+}
+
+.Margin1 {
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
+}
+
+.Margin2 {
+    margin-top: 2em !important;
+    margin-bottom: 2em !important;
+}
+
+.Margin3 {
+    margin-top: 3em !important;
+    margin-bottom: 3em !important;
+}
+
+.Margin4 {
+    margin-top: 4em !important;
+    margin-bottom: 4em !important;
+}
+
+.Margin20Px {
+    margin: 20px;
+}
+
+.MarginRight1 {
+    margin-right: 1em !important;
+}
+
+.MarginRight2 {
+    margin-right: 2em !important;
+}
+
+.MarginRight4 {
+    margin-right: 4em !important;
+}
+
+.MarginLeft0 {
+    margin-left: 0 !important;
+}
+
+.MarginLeft1 {
+    margin-left: 1em !important;
+}
+
+.MarginLeft2 {
+    margin-left: 2em !important;
+}
+
+.MarginLeft4 {
+    margin-left: 4em !important;
+}
+
+.MarginAutoTop {
+    margin-top: auto !important;
+}
+
+.MarginTop {
+    margin-top: 1em !important;
+}
+
+.MarginTop2 {
+    margin-top: 2em !important;
+}
+
+.MarginTop3 {
+    margin-top: 3em !important;
+}
+
+.MarginTopMediumChildrens > * {
+    margin-top: 0.5em !important;
+}
+
+.MarginBottomMedium {
+    margin-bottom: 0.5em !important;
+}
+
+.MarginBottom1 {
+    margin-bottom: 1em !important;
+}
+
+.MarginBottom2 {
+    margin-bottom: 2em !important;
+}
+
+.MarginBottom4 {
+    margin-bottom: 4em !important;
+}
+
+.MarginAutoBottom {
+    margin-bottom: auto !important;
+}
+
+.Padding0 {
+    padding: 0 !important;
+}
+
+.PaddingMedium {
+    padding: 0.5em !important;
+}
+
+.Padding1 {
+    padding: 1em !important;
+}
+
+.PaddingTop1 {
+    padding-top: 1em !important;
+}
+
+.PaddingBottom1 {
+    padding-bottom: 1em !important;
+}
+
+.PaddingBottom2 {
+    padding-bottom: 2em !important;
+}
+
+.PaddingLeft1 {
+    padding-left: 1em !important;
+}
+
+.PaddingRight1 {
+    padding-right: 1em !important;
+}
+
+.FormLegality input, .FormLegality textarea {
+    width: 95%;
+}
+
+.FormLegality select {
+    width: 98%;
+}
+
+/*******************************
+            Width   
+*******************************/
+.Width100Percent {
+    width: 100% !important;
+}
+
+.WidthAuto {
+    width: auto;
+}
+
+/*******************************
+             Page    
+*******************************/
+.Header {
+    grid-area: header;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.BarHeader {
+    grid-area: barHeader;
+}
+
+.Content {
+    grid-area: content;
+}
+
+.BarFooter {
+    grid-area: barFooter;
+}
+
+.Footer {
+    grid-area: footer;
+}
+
+.Page {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    grid-template-areas:
+        'header'
+        'content'
+        'barFooter'
+        'footer';
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+}
+
+    .Page * {
+        margin: 0;
+        padding: 0;
+    }
+/*******************************
+            Grid pages   
+*******************************/
+.gridPages {
+    margin-top: 1em;
+    margin-left: auto;
+}
+
+    .gridPages td {
+        padding: 4px 8px !important;
+    }
+
+.itemGridPage {
+    margin: 0px !important;
+    padding: 0;
+    cursor: pointer;
+}
+/*******************************
+            Container    
+*******************************/
+.Container {
+    margin: 0 auto !important;
+    max-width: 1720px;
+    width: 85%;
+}
+
+.Content {
+    background: #000;
+}
+
+    .Content > * {
+        margin-bottom: 1em;
+    }
+
+        .Content > *:last-child {
+            margin-bottom: -1em;
+        }
+
+.ContentTop {
+    padding-top: 1em;
+}
+
+.ContentPadding {
+    padding: 1em;
+}
+
+.MarginInitial {
+    margin-top: 4em !important;
+}
+
+.Line {
+    width: 92%;
+}
+
+.DivLineWhite {
+    height: 0.9px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.PanelLeft {
+    background-color: rgb(21, 29, 31);
+    background-image: linear-gradient(rgb(21, 29, 31), rgb(26, 27, 32));
+}
+/*******************************
+            Cards   
+*******************************/
+.SimpleCard {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5em;
+}
+
+    .SimpleCard > *:first-child {
+        margin-right: 1em;
+    }
+
+.CardTempleteList > *:first-child {
+    width: 90%;
+}
+
+.CardTempleteList > *:last-child {
+    width: 10%;
+}
+/*******************************
+          Backgrounds    
+*******************************/
+.backgroundBanner {
+    background: url('../images/abstractLogin.png') no-repeat;
+    background-size: 50%;
+}
+
+.backgroundBannerType2 {
+    background: url('../images/abstractLoginStyle2.png') no-repeat;
+    background-size: 50%;
+}
+
+.backgroundWelcome {
+    background: url('../images/StartLegalidad.jpg') no-repeat !important;
+    background-size: 100% 100% !important;
+}
+
+.backgroundFormalityBlockchain {
+    background: url('../images/abstractLogin.png') no-repeat;
+    background-size: 80%;
+}
+
+.backgroundBlur {
+    background-color: rgba(128, 128, 128, 0.3);
+}
+
+.backgroundGray {
+    background-color: #0E1414;
+}
+
+.backgroundWine {
+    background-color: rgb(41, 29, 40);
+    background-image: linear-gradient(rgb(14, 20, 20), 35%, rgb(41, 29, 40));
+}
+
+.backgroundBlack {
+    background: url('../images/LockiBannerObscuro.png') no-repeat !important;
+    background-size: cover !important;
+}
+
+.backgroundLegality {
+    background: url('../images/LockiBannerLegality.png') no-repeat !important;
+    background-size: cover !important;
+}
+
+.backgroundFileDrop {
+    background: url('../images/backgroundFileDrop.png') no-repeat !important;
+    background-size: contain !important;
+}
+
+.backgroundGradiantTypeOne {
+    background-color: rgb(38, 60, 58);
+    background-image: linear-gradient(rgb(38, 60, 58), rgb(61, 44, 62));
+}
+
+.GrupoISO {
+    background: url('../images/GrupoIso2.png') no-repeat;
+    height: 80px;
+    margin-top: 2em;
+    background-size: 80%;
+}
+
+/*******************************
+            Header    
+*******************************/
+.HeaderMainContent {
+    background-color: rgb(15, 22, 23);
+    background-image: linear-gradient(rgb(15, 22, 23), rgb(34, 24, 34));
+    font-family: 'galano grotesque';
+    height: 40px;
+    padding: 1em 0;
+}
+
+.Footer {
+    background-color: rgb(34, 24, 34);
+    background-image: linear-gradient(rgb(34, 24, 34), rgb(15, 22, 23));
+    height: 40px;
+    padding: 1em 0;
+}
+
+/*Create grid Areas*/
+.HeaderLeft {
+    grid-area: headerLeft;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 0.5em;
+}
+
+.HeaderCenter {
+    grid-area: headerCenter;
+}
+
+.logoHeader {
+    width: 130px;
+}
+
+.HeaderRight {
+    grid-area: headerRight;
+}
+
+.HeaderMenuValidations * {
+    font-family: 'averta light';
+}
+
+/*Main View*/
+.HeaderContent {
+    display: grid !important;
+    grid-gap: 0.5em;
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas:
+        'headerLeft headerCenter  headerRight';
+    font-size: 14px;
+}
+
+.HeaderLeft, .HeaderCenter, .HeaderRight {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeaderLeft {
+    align-items: flex-start;
+}
+
+.HeaderCenter {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+    .HeaderCenter > * {
+        margin: 0 auto;
+    }
+
+    .HeaderCenter * {
+        font-family: 'averta light';
+        font-size: 0.8em;
+    }
+
+.HeaderRight {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+    .HeaderRight > * {
+        margin-left: 1em;
+    }
+
+.imageHeader {
+    width: 40px;
+    border-radius: 25px;
+    /*height: 40px;
+    border: solid 2.5px red;
+    margin-top: -5px;*/
+}
+
+.ImageLeft {
+    width: 80%;
+}
+
+.menuUserMain {
+    background-color: rgb(38, 60, 58);
+    background-image: linear-gradient(rgb(38, 60, 58), rgb(61, 44, 62));
+}
+
+.StackMenuItems * {
+    margin-bottom: 0.5em;
+}
+
+#stackHeaderButtom {
+    background: rgb(226,255,34);
+    background: radial-gradient(circle, rgba(226,255,34,1) 35%, rgba(245,192,170,1) 50%, rgba(255,158,245,1) 68%, rgba(158,255,255,1) 100%);
+    width: auto;
+    height: 1px;
+}
+
+.menuHeader, .menuHeader * {
+    background-color: rgb(38, 60, 58);
+    background-image: linear-gradient(rgb(38, 60, 58), rgb(61, 44, 62));
+}
+/*******************************
+            Footer    
+*******************************/
+.Footer {
+    padding: 1em 0;
+    height: auto;
+}
+
+    .Footer * {
+        font-family: 'averta light';
+    }
+
+.FooterMenu * {
+    font-size: 0.8em;
+}
+
+.logoFooter {
+    width: 130px;
+}
+
+.imageFooter {
+    border: none;
+}
+
+#FooterIconInstagram {
+    width: 20px;
+    border-radius: 0px;
+}
+
+/*grid areas*/
+.FooterLeft {
+    grid-area: footerLeft;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+    .FooterLeft > .link:nth-child(1) {
+        margin-right: 1em;
+    }
+
+.FooterBottomMedium {
+    grid-area: footerMedium;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.MexicoLogo {
+    width: 100px;
+}
+
+.NomLogo {
+    width: 46.6px;
+}
+
+.IsoLogo {
+    width: 46.6px;
+}
+
+.IecLogo {
+    width: 46.6px;
+}
+
+.FooterRight {
+    grid-area: footerRight;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.FooterContent {
+    display: grid !important;
+    grid-template-areas:
+        'footerLeft footerMedium footerRight';
+    width: 100%;
+}
+/*******************************
+            Chat    
+*******************************/
+#cmdOpenChat {
+    width: 100px;
+    position: fixed;
+    right: -10px;
+    top: 65%;
+    z-index: 100;
+}
+/*******************************
+          Formularies    
+*******************************/
+.Formulary {
+    background: rgb(57, 85, 88);
+    background: linear-gradient(90deg, rgb(57, 85, 88) 10%, rgb(42, 30, 42));
+}
+
+.FormularyAreasLeft {
+    grid-area: formLeft;
+}
+
+.FormularyAreasRight {
+    grid-area: formRight;
+}
+
+.FormularyAreas {
+    display: grid !important;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 'formLeft formRight';
+}
+
+.FormFieldsLeft {
+    grid-area: FormFieldsLeft;
+}
+
+.FormFieldsRight {
+    grid-area: FormFieldsRight;
+}
+
+.FormFields {
+    /*display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: 'FormFieldsLeft FormFieldsRight';
+    margin-bottom: 1em;*/
+}
+
+.FormOneField {
+    text-align: center;
+}
+
+/*******************************
+         Notifications    
+*******************************/
+.notification {
+    color: #FFFFFF;
+    font-family: 'averta light';
+    font-size: 0.9em;
+    /*font-weight: bold;*/
+    text-decoration: none !important;
+    padding: 0.35em 1.25em 0.5em;
+    position: fixed;
+    right: 10%;
+    top: 90%;
+    width: auto !important;
+    max-width: 70% !important;
+    z-index: 100;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+@media (min-width: 1500px) {
+    .notification {
+        top: 92%;
+    }
+}
+
+.notificationSuccess {
+    background: #06C683;
+}
+
+.notificationWarming {
+    background: rgb(255, 40, 40);
+}
+
+.sendDocumentNotification {
+    width: 41em !important;
+}
+
+/*******************************
+            Buttons    
+*******************************/
+.button {
+    padding: 0.5em 1.25em;
+    border-radius: 1.5em;
+    height: 40px;
+}
+
+    .button:hover {
+        cursor: pointer;
+    }
+
+.boldButton {
+    height: 60px;
+}
+
+.allWidthButton {
+    width: 100% !important;
+}
+
+.mediumButton {
+    width: 300px;
+}
+
+.longButton {
+    width: 420px;
+}
+
+.whiteButton {
+    background: #FFFFFF;
+    border: none;
+    color: #000000;
+}
+
+.yellowButton, .yellowButtonWithoutHover {
+    background: rgb(223, 255, 9);
+    border: none;
+    color: #000000;
+}
+
+    .yellowButton:hover {
+        background: #000000;
+        border: solid 1px rgb(223, 255, 9);
+        color: #FFFFFF;
+    }
+
+.simpleBlackButton {
+    background: #000000;
+    border: none;
+    color: #FFFFFF;
+}
+
+.blackButton {
+    background: #000000;
+    border: solid 1px rgb(223, 255, 9);
+    color: #FFFFFF;
+}
+
+    .blackButton:hover {
+        background: rgb(223, 255, 9);
+        border: none;
+        color: #000000;
+    }
+
+.blackGreenButton {
+    background: #000000;
+    border: solid 1px #00FF00;
+    color: #FFFFFF;
+}
+
+.purpleButton {
+    /*background: #AA139A;*/
+    background: #FF9EF5;
+    border: none;
+    color: black;
+}
+
+    .purpleButton:hover {
+        background: #000000;
+        /*border: solid 1px #AA139A;*/
+        border: solid 1px #FF9EF5;
+        color: #FF9EF5;
+    }
+
+.pinkButton {
+    background: #FF9EF5;
+    border: none;
+    color: black;
+}
+
+    .pinkButton:hover {
+        background: #000000;
+        border: solid 1px #FF9EF5;
+        color: #FF9EF5;
+    }
+
+.transparentButtonBorderGreen {
+    background-color: transparent;
+    border-color: rgb(0, 255, 102);
+    color: white;
+}
+
+    /*.transparentButtonBorderGreen:hover {
+        background-color: rgb(0, 255, 102);
+        color: black;
+        cursor: pointer;
+    }*/
+
+.buttonCenter, .ControlCenter {
+    margin: 0 auto;
+}
+/*******************************
+            Inputs    
+*******************************/
+input, select {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 255);
+    border-radius: 5px;
+    padding: 0.25em 0.5em;
+}
+
+    select option {
+        background-color: white;
+        color: black;
+    }
+
+.TextBox, .TextArea, textarea, .SelectTextBox {
+    color: white;
+    background-color: rgba(145, 145, 145, 0.4);
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 10px;
+}
+
+.TextArea {
+    font-size: 0.8125em;
+}
+
+.largeTextBox {
+    width: 400px;
+}
+
+.largeTextArea {
+    width: 400px;
+    height: 200px;
+}
+
+.TextBoxWithBorder {
+    color: white;
+    background-color: rgba(145, 145, 145, 0.4);
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 10px;
+}
+/*******************************
+        ListPickers    
+*******************************/
+.ListPicker {
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.ListPickerLow {
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.ListPickerLarge {
+    width: 300px;
+}
+
+.ListPickerGrayWithoutBorder {
+    color: white;
+    background-color: rgb(21, 29, 31);
+    border-radius: 0.3em;
+    padding: 0.6em;
+    border-color: transparent;
+}
+
+/*******************************
+          Date picker
+*******************************/
+.ui-datepicker {
+    background-color: black;
+    padding: 0.5em;
+    border-radius: 1em;
+    border-color: #E2FF22 !important;
+    border-width: 10px !important;
+}
+
+.ui-datepicker-prev {
+    margin-right: 85px;
+}
+
+.ui-datepicker-calendar {
+    text-align: center;
+}
+
+/*******************************
+    Style for profile user    
+*******************************/
+.imageUser {
+    width: 5em;
+    border-radius: 5em;
+}
+
+.fileUpload {
+    margin-left: 5em;
+}
+
+.FileDrop {
+    width: 600px;
+    height: 200px;
+    border: dashed 3px #ff0;
+}
+
+.ContentImageUser {
+    background: linear-gradient(to right, rgba(226,255,34,1), rgba(245,192,170,1), rgba(255,158,245,1), rgba(158,255,255,1));
+    border-radius: 500em;
+    padding: 0.1em;
+}
+
+    .ContentImageUser > *:first-child {
+        margin: -1px 0.5px -4px -1px;
+    }
+
+#ContentImageUserProfileController {
+    width: 5em;
+}
+
+    #ContentImageUserProfileController > *:first-child {
+        /*margin: auto;*/
+    }
+
+.profilePicture {
+    width: 5em;
+    border-radius: 5em;
+    position: center;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+.inputNumber {
+    width: 40px;
+}
+
+.inputFormProperties {
+    background-color: rgba(37, 37, 45, 255);
+}
+
+    .inputFormProperties:focus {
+        border-color: yellow;
+    }
+
+.linePink {
+    color: orchid;
+}
+/*******************************
+            Stacks    
+*******************************/
+#divToolbarLeft {
+    grid-area: divToolbarLeft;
+}
+
+#divPdf {
+    grid-area: divPdf;
+}
+
+#divToolbarRight {
+    grid-area: divToolbarRight;
+    width: 500px;
+    margin-left: 700px;
+    background-color: rgba(43, 45, 58, 255);
+    padding: 25px;
+}
+
+#Container {
+    display: grid;
+    grid-template-areas: 'divToolbarLeft divPdf divToolbarRigh';
+}
+
+#divParentSigners {
+    height: 500px;
+    padding: 20px;
+    overflow-y: scroll;
+    background-color: rgba(53, 55, 68, 255);
+}
+
+/*******************************
+            Login    
+*******************************/
+#stkFormularyLogin {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    z-index: 100;
+    width: 50%;
+    height: 50.7em;
+}
+
+#cmdLogin, #cmdRegister {
+    height: 30px;
+    padding: 0em 1em;
+    font-size: 0.8em;
+}
+
+.HiddenLoginForm {
+    display: none !important;
+}
+
+#stkFormularyLogin .Container {
+    width: 70%;
+}
+
+.Login, .Register {
+    /*font-size: 18px;*/
+}
+
+    .Login * {
+        margin-bottom: 0.5em;
+    }
+
+.iconClose {
+    color: gray;
+    font-size: 30px;
+}
+
+.LoginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+    .LoginForm > * {
+        width: 100%;
+        margin-bottom: 0.5em;
+    }
+
+    .LoginForm h3 {
+        margin-top: -1em !important;
+    }
+
+.TextBoxLogin {
+    background: #fff;
+    height: 50px;
+    width: 70%;
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+    .TextBoxLogin:hover {
+        box-shadow: 0px 0px 4px 3px #DFFF09;
+    }
+
+    .TextBoxLogin * {
+        margin-bottom: 5px;
+    }
+
+    .TextBoxLogin input, .TextBoxLogin select {
+        border: none;
+        color: #000;
+        padding: 0.25em 0.5em;
+        width: 95%;
+    }
+
+        .TextBoxLogin input:hover, .TextBoxLogin select:hover {
+            /*border: solid 2px #00F;*/
+            border-width: 0px;
+        }
+
+        .TextBoxLogin input:focus, .TextBoxLogin select:focus {
+            outline: none;
+        }
+
+        .TextBoxLogin select option {
+            background-color: white;
+        }
+
+.buttonLogin {
+    height: 50px;
+    border-radius: 50px;
+}
+
+.LoginButton {
+    width: 50% !important;
+}
+
+/*******************************
+           Register    
+*******************************/
+#stkFormularyRegister {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    z-index: 100;
+    width: 53%;
+    height: 50.7em;
+    text-align: left;
+}
+
+.HiddenRegisterForm {
+    display: none !important;
+}
+
+#stkFormularyRegister .Container {
+    width: 80%;
+}
+
+.FormRegister > * {
+    margin-bottom: 1em;
+}
+
+.RegisterTabLeft button, .RegisterTabRight button {
+    border-radius: 1em 1em 0 0;
+    width: 100%;
+}
+
+.RegisterTabLeft {
+    grid-area: registerTabLeft;
+}
+
+.RegisterTabRight {
+    grid-area: registerTabRight;
+}
+
+.RegisterTabs {
+    display: grid !important;
+    grid-gap: 0;
+    grid-template-areas:
+        'registerTabLeft registerTabRight';
+    margin-bottom: 0;
+}
+
+.TextBoxRegister {
+    height: 40px;
+    width: 95%;
+    padding: 0.25em;
+}
+
+    .TextBoxRegister * {
+        margin-bottom: 0px;
+    }
+
+    .TextBoxRegister > *:first-child {
+        font-size: 0.9em;
+    }
+
+    .TextBoxRegister input, .TextBoxRegister select {
+        padding: 0.1em 0.5em;
+        width: 95%;
+    }
+
+.StackInformationRegister {
+    margin-bottom: -0.5em;
+}
+
+.FormularyFields {
+    margin-top: -2em;
+}
+
+/*Register Persona Moral*/
+.formularyMoralLeft1 {
+    grid-area: moralLeft1;
+}
+
+.formularyMoralRight1 {
+    grid-area: moralRight1;
+}
+
+.formularyMoralLeft2 {
+    grid-area: moralLeft2;
+}
+
+.formularyMoralRight2 {
+    grid-area: moralRight2;
+}
+
+.formularyMoralLeft3 {
+    grid-area: moralLeft3;
+}
+
+.formularyMoralRight3 {
+    grid-area: moralRight3;
+}
+
+.formularyMoralLeft4 {
+    grid-area: moralLeft4;
+}
+
+.formularyMoralLeft5 {
+    grid-area: moralLeft5;
+}
+
+.formularyMoralRight5 {
+    grid-area: moralRight5;
+}
+
+.formularyMoralLeft6 {
+    grid-area: moralLeft6;
+}
+
+.formularyMoralRight6 {
+    grid-area: moralRight6;
+}
+
+.formularyMoralLeft7 {
+    grid-area: moralLeft7;
+}
+
+.formularyMoralRight7 {
+    grid-area: moralRight7;
+}
+
+.formularyMoralLeft8 {
+    grid-area: moralLeft8;
+}
+
+.formularyMoralRight8 {
+    display: flex !important;
+    grid-area: moralRight8;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.FormularyFieldsMoral {
+    display: grid !important;
+    grid-gap: 0.5em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        'moralLeft1 moralRight1'
+        'moralLeft2 moralRight2'
+        'moralLeft3 moralRight3'
+        'moralLeft4 .'
+        'moralLeft5 .'
+        'moralLeft6 moralRight6'
+        'moralLeft7 moralRight7'
+        'moralLeft8 moralRight8';
+    margin: 1em 0;
+}
+/*******************************
+            Start    
+*******************************/
+.StartBanner {
+    grid-area: startBanner;
+    height: 51em;
+}
+
+.StartTemplate {
+    grid-area: startTemplate;
+}
+
+.StartFormalityMain {
+    grid-area: startFormalityMain;
+    position: relative;
+}
+
+.ElipseFormalityBlockchain {
+    width: 100%;
+    height: 70em;
+    opacity: 0.4;
+}
+
+.ContentFormalityBlockchain {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 10;
+}
+
+.flwTemplateFormalityBlockchainMembership {
+    background-color: rgba(41, 29, 40, 0.3);
+    background-image: linear-gradient(rgb(14, 20, 20), 40%, rgb(41, 29, 40));
+}
+
+.StartMembership {
+    grid-area: startMemberShip;
+}
+
+    .StartMembership #flowInfo2StartPlanSecction {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+.StartPhone {
+    grid-area: startPhone;
+}
+
+.StartContent {
+    display: grid;
+    grid-gap: 0;
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas:
+        'startBanner'
+        'startWelcome'
+        'startFormalityMain'
+        'startPhone';
+    /*    grid-template-areas:
+        'startBanner'
+        'startWelcome'
+        'startTemplate'
+        'startFormalityMain'
+        'startMemberShip'
+        'startPhone';*/
+}
+
+.StartMarginTop {
+    margin-top: -3.5em;
+}
+/*Section Banner*/
+.BannerLeft {
+    grid-area: bannerLeft;
+}
+
+.BannerRight {
+    grid-area: bannerRight;
+}
+
+.BannerContent {
+    display: grid;
+    grid-template-areas:
+        'bannerLeft bannerRight';
+}
+
+.BannerButton {
+    width: 350px;
+}
+
+.FlowIsoGroup {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#FlowIsoGroupBanner {
+    width: 350px;
+}
+
+    #FlowIsoGroupBanner .MexicoLogo {
+        width: 125px;
+    }
+
+    #FlowIsoGroupBanner .NomLogo, #FlowIsoGroupBanner .IsoLogo, #FlowIsoGroupBanner .IecLogo {
+        width: 58.3px;
+    }
+
+#flwBackgroundBlurWelcomeTools {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*Section welcome*/
+.backgroundWelcome h3 {
+    width: 25em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ToolsWelcome {
+    display: grid !important;
+    grid-template-areas: 'CardWelcomeTemplate CardWelcomeEncriptContract CardWelcomeCreateContract';
+    width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.CardWelcomeTemplate {
+    grid-area: CardWelcomeTemplate;
+}
+
+.CardWelcomeEncriptContract {
+    grid-area: CardWelcomeEncriptContract;
+}
+
+.CardWelcomeCreateContract {
+    grid-area: CardWelcomeCreateContract;
+    margin-right: -3em;
+}
+
+.CardToolWelcome {
+    background: rgba(41, 29, 40, 0.5);
+    background-image: linear-gradient(rgba(20, 32, 32, 0.4), 50%, rgba(41, 29, 40, 0.5));
+    width: 18em;
+    height: 210px;
+    margin-top: 4em;
+}
+
+    .CardToolWelcome:hover {
+        cursor: pointer;
+    }
+
+    .CardToolWelcome * {
+        font-family: 'averta light';
+    }
+
+    .CardToolWelcome .CardToolTitle {
+        margin-top: -1.2em !important;
+    }
+
+    .CardToolWelcome .ButtonFooterCardWelcome {
+        margin-top: -1.7em !important;
+        font-size: 0.8em;
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    .CardToolWelcome .ContentCardWelcome {
+        margin-top: -1em !important;
+    }
+
+.CardToolWelcomeImage {
+    text-align: center;
+}
+
+.imageWelcome {
+    margin-top: -80px;
+    width: 100px;
+}
+
+.ContentCardWelcome {
+    padding: 0 15px;
+    height: 70px;
+    font-size: 0.7em;
+    opacity: 0.8;
+}
+
+.CardToolTitle {
+    height: 40px;
+}
+
+.titleTextWelcome {
+    color: #fff;
+    font-size: 18px;
+}
+
+.textWelcomeBottonTemplate {
+    width: 150px !important;
+    border: solid 2px #9EFFFF;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    padding: 7px 0;
+}
+
+.textWelcomeBottonEncript {
+    width: 150px;
+    border: solid 2px #FF77F1;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    padding: 7px 0;
+}
+
+.textWelcomeBottonCreate {
+    width: 150px;
+    border: solid 2px #E2FF22;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    padding: 7px 0;
+}
+
+.welcomeButton {
+    margin: 0 auto !important;
+}
+/*Section Image Template*/
+.StartTemplates > * {
+    width: 16%;
+}
+
+.StartTemplates {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+/*Start Legality*/
+.StartFormality > * {
+    width: 45%;
+}
+
+.StartFormality {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FlowIconTwoNoms {
+    display: flex !important;
+    width: 100%;
+    justify-content: center;
+}
+
+    .FlowIconTwoNoms .MexicoLogo {
+        width: 150px;
+    }
+
+    .FlowIconTwoNoms .MexicoLogo, .FlowIconTwoNoms .IsoLogo {
+        margin-right: 5em;
+    }
+
+    .FlowIconTwoNoms .NomLogo, .FlowIconTwoNoms .IsoLogo, .FlowIconTwoNoms .IecLogo {
+        width: 70px;
+    }
+
+.ImgMarco {
+    background-image: url('../Resources/GrupoMarco.png');
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ImgModelo {
+    background-image: url('../Resources/GrupoModelo.png');
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*Section BlockChain*/
+.StartVideoBlockChain {
+    margin: 0 auto;
+    width: 100%;
+}
+
+    .StartVideoBlockChain > * {
+        width: 100%;
+        max-width: 700px;
+        height: 400px;
+    }
+/*Section Plan*/
+.startPlan {
+    text-align: right;
+}
+
+    .startPlan > * {
+        margin-right: 7.5%;
+    }
+
+    .startPlan button {
+        margin-left: 1em;
+    }
+
+#PartnerUpStartController {
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+@media (min-width: 1500px) {
+    #PartnerUpStartController {
+        margin-right: 20%;
+    }
+}
+
+/*Section Phone*/
+.startPhone {
+    background: rgb(220,219,219);
+    background: radial-gradient(circle, rgba(220,219,219,1) 35%, rgba(255,255,255,1) 50%, rgba(217,243,243,1) 100%);
+    margin: 0;
+    width: 100%;
+    margin-bottom: -2.3em;
+}
+
+.StartPhoneLeft, .StartPhoneCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.StartPhoneLeft {
+    grid-area: phoneLeft;
+}
+
+.StartPhoneCenter {
+    grid-area: phoneCenter;
+}
+
+    .StartPhoneCenter > * {
+        text-align: left;
+        margin-bottom: 1em;
+        width: 100%;
+    }
+
+.StartPhoneRight {
+    grid-area: phoneRight;
+}
+
+.StartPhone {
+    display: grid !important;
+    grid-gap: 1em;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas:
+        'phoneLeft phoneCenter phoneRight';
+}
+
+.startPhoneButton {
+    width: 100%;
+}
+
+    .startPhoneButton .button {
+        width: 210px;
+    }
+
+.imgIphone {
+    margin-top: -125px;
+    width: 100%;
+    z-index: 1;
+}
+
+.CardTitlePlan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 170px;
+    height: 120%;
+    margin-bottom: -1.2em;
+}
+
+    .CardTitlePlan .textCardTitlePlan {
+        font-size: 1.1em;
+    }
+
+
+.CardTitleAqua {
+    /*background: #9EFFFF;*/
+    background: rgba(158, 255, 255, 0.9);
+}
+
+.CardTitlePink {
+    /*background: #FF9EF5;*/
+    background: rgba(255, 158, 245, 0.9);
+}
+
+.CardTitleYellow {
+    /*background: #E2FF22;*/
+    background: rgba(226, 255, 34, 0.9);
+}
+
+.CardTitleGreen {
+    /*background: #00FF66;*/
+    background: rgba(0, 255, 102, 0.9);
+}
+
+.ButtonCardTitlePlan {
+    background: #0F1214;
+    font-weight: bold;
+    font-size: 13px;
+    border: none;
+    color: #fff;
+    margin-top: 0.5em;
+    height: auto;
+    width: 100px;
+}
+
+.cellTable {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 13px;
+    height: auto;
+}
+
+    .cellTable > * {
+        /*margin: auto;*/
+    }
+
+.planBlack {
+    background: #111;
+}
+
+.planAqua {
+    background-color: aqua;
+    color: #000;
+}
+
+.planGray {
+    background-color: #333;
+}
+/*Grid Areas*/
+.cellA1 {
+    grid-area: cellA1;
+    border-radius: 1em 0em 0em 0em;
+}
+
+.cellA2 {
+    grid-area: cellA2;
+}
+
+.cellA3 {
+    grid-area: cellA3;
+}
+
+.cellA4 {
+    grid-area: cellA4;
+}
+
+.cellA5 {
+    grid-area: cellA5;
+    border-radius: 0em 1em 0em 0em;
+}
+
+.cellB1 {
+    grid-area: cellB1;
+}
+
+.cellB2 {
+    grid-area: cellB2;
+}
+
+.cellB3 {
+    grid-area: cellB3;
+}
+
+.cellB4 {
+    grid-area: cellB4;
+}
+
+.cellB5 {
+    grid-area: cellB5;
+    border-radius: 0em 0em 1em 0em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.cellC1 {
+    grid-area: cellC1;
+    border-radius: 0em 0em 0em 1em;
+}
+
+.cellC2 {
+    grid-area: cellC2;
+}
+
+.cellC3 {
+    grid-area: cellC3;
+}
+
+.cellC4 {
+    grid-area: cellC4;
+}
+
+.cellD1 {
+    grid-area: cellD1;
+}
+
+.cellD2 {
+    grid-area: cellD2;
+}
+
+.cellD3 {
+    grid-area: cellD3;
+}
+
+.cellD4 {
+    grid-area: cellD4;
+}
+
+.TablePlan {
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(5, 170px);
+    grid-template-rows: 100px repeat(2, 4em);
+    grid-template-areas:
+        'cellA1 cellA2 cellA3 cellA4 cellA5'
+        'cellB1 cellB2 cellB3 cellB4 cellB5'
+        'cellC1 cellC2 cellC3 cellC4 cellB5';
+    width: 1200px;
+    margin: 0 auto;
+}
+
+@media (min-width: 1500px) {
+    .TablePlan {
+        /*margin: 0 auto 0 20em;*/
+    }
+
+    .TableSignaturesSigned {
+        margin: 0 auto 0 20em;
+    }
+
+    .PageTablePlan {
+        width: 55% !important;
+    }
+}
+
+.TablePlan .CardTitleGreen {
+    border-radius: 0em 1em 0em 0em;
+}
+
+.PageTablePlan {
+    width: 75%;
+}
+
+.TableSignaturesSigned {
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(5, 170px);
+    grid-template-rows: 100px 3em;
+    grid-template-areas:
+        'TableSignaturesA1 TableSignaturesA2 TableSignaturesA3 TableSignaturesA4 TableSignaturesA5'
+        'TableSignaturesB1 TableSignaturesB2 TableSignaturesB3 TableSignaturesB4 TableSignaturesB5';
+    width: auto;
+    margin: 0 auto;
+}
+
+.TableSignaturesA1 {
+    grid-area: TableSignaturesA1;
+    border-radius: 1em 0em 0em 0em;
+}
+
+.TableSignaturesA2 {
+    grid-area: TableSignaturesA2;
+}
+
+.TableSignaturesA3 {
+    grid-area: TableSignaturesA3;
+}
+
+.TableSignaturesA4 {
+    grid-area: TableSignaturesA4;
+}
+
+.TableSignaturesA5 {
+    grid-area: TableSignaturesA5;
+    border-radius: 0em 1em 0em 0em;
+}
+
+    .TableSignaturesA5 .CardTitlePlan {
+        border-radius: 0em 1em 0em 0em;
+    }
+
+.TableSignaturesB1 {
+    grid-area: TableSignaturesB1;
+    border-radius: 0em 0em 0em 1em;
+}
+
+.TableSignaturesB2 {
+    grid-area: TableSignaturesB2;
+}
+
+.TableSignaturesB3 {
+    grid-area: TableSignaturesB3;
+}
+
+.TableSignaturesB4 {
+    grid-area: TableSignaturesB4;
+}
+
+.TableSignaturesB5 {
+    grid-area: TableSignaturesB5;
+    border-radius: 0em 0em 1em 0em;
+}
+
+/*****************************
+        PlanController
+*****************************/
+.ContentPlanController .backgroundBlur {
+    min-height: 35em;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+@media (min-width: 1500px) {
+    .ContentPlanController .backgroundBlur, .ContentHowWork {
+        min-height: 48em;
+    }
+}
+
+/*******************************
+        How Work    
+*******************************/
+.ColumnsHowWork {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ContentHowWork .Video > * {
+    height: 21em;
+    width: 600px;
+}
+
+/*******************************
+        Legality    
+*******************************/
+#legalityContent .TextArea {
+    height: 15em;
+}
+
+.LegalityContent {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.IconsIso {
+    margin-top: 0.5em;
+    width: 16em;
+}
+
+.LegalityContent textarea {
+    font-size: 1em;
+    height: 15em;
+}
+
+.LegalityContentLeft {
+    width: 60%;
+}
+
+.LegalityContentLeftTop {
+    width: 95%;
+    border-style: solid;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-color: white;
+    margin: 0em 0em 1em 0em;
+    padding: 0em 0em 1em 0em;
+}
+
+.LegalityContentRight {
+    width: 40%;
+}
+
+.ColumnsArticles {
+    width: 95%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.ColumnsArticlesLeft, .ColumnsArticlesRight {
+    width: 50%;
+}
+/*******************************
+        PartnerUp   
+*******************************/
+.imageParterUp {
+    /*width: 60%;*/
+    margin: auto;
+}
+
+.oneColumn {
+    grid-area: oneColumn;
+}
+
+.twoColumn {
+    grid-area: twoColumn;
+}
+
+.twoColumns {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'oneColumn twoColumn';
+}
+
+.PartnerUpLeft {
+    grid-area: PartnerUpLeft;
+}
+
+.PartnerUpRight {
+    grid-area: PartnerUpRight;
+}
+
+.PartnerUpContent {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'PartnerUpLeft PartnerUpRight';
+}
+
+.PartnerUp .TextArea {
+    height: 13em;
+    font-size: 1em;
+}
+
+/*******************************
+        Contact    
+*******************************/
+#formularyContact {
+    background: rgb(30, 42, 48);
+    border-radius: 5px;
+}
+
+.ContactName {
+    grid-area: contactName;
+}
+
+.ContactBirthday {
+    grid-area: contactBirthday;
+    background: rgb(14, 18, 21) !important;
+    border-radius: 5px;
+}
+
+    .ContactBirthday > :first-child {
+        margin-left: 0.5em;
+        margin-top: 0.5em;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .ContactBirthday .TextBox {
+        background-color: transparent;
+    }
+
+.ContactEmail {
+    grid-area: contactEmail;
+}
+
+.ContactPhone {
+    grid-area: contactPhone;
+}
+
+.ContactIndutry {
+    grid-area: contactIndustry;
+    background: rgb(14, 18, 21) !important;
+    border-radius: 5px;
+}
+
+    .ContactIndutry > :first-child {
+        margin-left: 0.5em;
+        margin-top: 0.5em;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .ContactIndutry .SelectTextBox {
+        background-color: transparent;
+    }
+
+.ContactCountry {
+    grid-area: contactCountry;
+}
+
+.ContactDubt {
+    grid-area: contactDubt;
+}
+
+.FormContact {
+    display: grid !important;
+    grid-column-gap: 0.25em;
+    grid-row-gap: 1em;
+    grid-template-areas:
+        'contactName contactBirthday'
+        'contactEmail contactPhone'
+        'contactIndustry contactCountry'
+        'contactDubt contactDubt';
+    grid-template-columns: 1fr 1fr;
+}
+
+.ContactField > * {
+    color: #fff;
+    width: 95%;
+    height: 50px;
+    background: rgb(14, 18, 21) !important;
+}
+
+.ContactField .TextArea {
+    width: 97.5%;
+    height: 90px;
+    font-size: 1em;
+}
+
+.FormularyContactButton {
+    width: 48%;
+}
+
+/*******************************
+      FrequesntQuestions
+*******************************/
+.flwQuestionAnswer {
+    border-style: solid;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-color: white;
+    margin: 0em 1em 2em 0em;
+    padding: 0em 1em 1em 0em;
+}
+
+/*******************************
+       EncriptContract    
+*******************************/
+.EncriptPanelLeft {
+    grid-area: encriptLeft;
+}
+
+    .EncriptPanelLeft .Line {
+        width: 100%;
+    }
+
+        .EncriptPanelLeft .Line hr {
+            color: rgba(255, 255, 255, 0.2);
+        }
+
+.EncriptPanelRight {
+    grid-area: encriptRight;
+}
+
+.EncriptPanel {
+    display: grid !important;
+    grid-template-columns: 17% 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        'encriptLeft encriptRight';
+    margin-bottom: -2em;
+}
+/*******************************
+    stackToolbarLeftHome    
+*******************************/
+.iconFile {
+    width: 25px;
+    margin: 0em 0em;
+    grid-area: iconFile;
+}
+
+.RecommendedTemplateName {
+    text-align: left;
+    color: rgb(187, 187, 188);
+}
+/***********************************
+    Home tolbar right my documents
+***********************************/
+.ContentCardAreWeDoingTop {
+    grid-area: ContentCardAreWeDoingTop;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 0em;
+    margin-right: auto;
+    font-size: 0.9em;
+}
+
+    .ContentCardAreWeDoingTop > *:first-child {
+        width: 30px;
+        margin-right: 1em;
+    }
+
+.ContentCardAreWeDoingMiddle {
+    grid-area: ContentCardAreWeDoingMiddle;
+    padding-top: 0.3em;
+    /*height: 160px;*/
+    border-style: solid;
+    border-left-width: 0px;
+    border-top-width: 1px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-color: rgba(255, 255, 255, 0.03);
+}
+
+.ContentCardAreWeDoingBottom {
+    grid-area: ContentCardAreWeDoingBottom;
+}
+
+.ContentCardAreWeDoing {
+    background-color: rgb(38, 60, 58);
+    background-image: linear-gradient(rgb(38, 60, 58), rgb(61, 44, 62));
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        'ContentCardAreWeDoingTop'
+        'ContentCardAreWeDoingMiddle'
+        'ContentCardAreWeDoingBottom';
+    padding: 0.5em;
+    height: 6.5em;
+}
+
+    .ContentCardAreWeDoing * {
+        color: rgb(187, 187, 188);
+    }
+
+.CardAreWeDoingTop {
+    grid-area: card-arewedoing-top;
+}
+
+.CardAreWeDoingBottom {
+    grid-area: card-arewedoing-bottom;
+}
+
+.CardAreWeDoing {
+    color: #fff;
+    display: grid !important;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+        'card-arewedoing-top'
+        'card-arewedoing-bottom';
+    width: 32%;
+    height: auto;
+    font-size: 14px;
+    margin-top: 0.2em;
+}
+
+    .CardAreWeDoing:hover {
+        cursor: pointer;
+    }
+
+    .CardAreWeDoing * {
+        font-family: 'averta light';
+    }
+
+.ImageCardWeAreDoing {
+    width: 45px;
+}
+/*Layout*/
+.HomePendings {
+    display: grid !important;
+    grid-gap: 0.3em;
+    grid-template-columns: repeat(3, 11em);
+}
+
+@media (min-width: 1500px) {
+    .HomePendings {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.HomePendings2 {
+    /*grid-template-columns: repeat(2, 1fr);*/
+}
+
+.flwPathDirectoryMyContracts * {
+    margin-right: 0.5em;
+}
+
+.NameDirectoryPath {
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+.IconDirectoryPath {
+    cursor: pointer;
+    width: 20px;
+}
+
+.HomeContracts {
+    display: grid !important;
+    grid-row-gap: 0.75em;
+    /*grid-column-gap: 1.5em;*/
+    grid-template-columns: repeat(4, 17em);
+    width: 67em;
+}
+
+@media (min-width: 1500px) {
+    .HomeContracts {
+        grid-template-columns: repeat(4, 1fr);
+        width: auto;
+    }
+}
+
+.ItemHomeContract {
+    width: 90%;
+    height: 4.5em;
+    background-color: rgb(22, 32, 33) !important;
+    background-image: linear-gradient(rgb(22, 32, 33), rgb(27, 26, 32)) !important;
+}
+
+    .ItemHomeContract > *:first-child {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+/****************************************/
+
+.CardDirectoryMyContract {
+    display: grid !important;
+    grid-template-columns: 25px 1fr;
+    grid-template-areas:
+        'card-directory-mycontracts-top card-directory-mycontracts-top'
+        'card-directory-mycontracts-bottom-left card-directory-mycontracts-bottom-righ';
+    max-height: 40px;
+    padding: 1em 0.5em;
+}
+
+.CardDirectoryMyContractTop {
+    grid-area: card-directory-mycontracts-top;
+    width: 3em;
+    margin-bottom: 0.2em;
+}
+
+.CardDirectoryMyContractBottomLeft {
+    grid-area: card-directory-mycontracts-bottom-left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .CardDirectoryMyContractBottomLeft > * {
+        width: 25px;
+    }
+
+.CardDirectoryMyContractBottomRight {
+    grid-area: card-directory-mycontracts-bottom-righ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 0.5em;
+}
+
+.CardHomePendingRight a:last-child {
+    margin-left: 0 !important;
+}
+
+/****************************************/
+
+.DateMyDocument {
+    color: rgb(0, 255, 102);
+    background-color: rgba(0, 255, 102, 0.2);
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.DateDirectoryMyDocument {
+    color: rgb(0, 217, 252);
+    background-color: rgba(0, 217, 252, 0.2);
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.IconDirectoryMyDocuments {
+    width: 25px;
+}
+
+/*Item Home Pending*/
+.ItemHomePending {
+    background-color: rgb(38, 60, 58);
+    background-image: linear-gradient(rgb(38, 60, 58), rgb(61, 44, 62));
+}
+
+    .ItemHomePending:hover {
+        cursor: pointer;
+    }
+
+.CardHomePending {
+    display: grid !important;
+    grid-template-columns: 25px 1fr;
+    grid-template-areas: 'card-home-pending-left card-home-pending-right';
+    max-height: 40px;
+    padding: 0.7em 0.5em;
+}
+
+.CardHomePendingLeft {
+    grid-area: card-home-pending-left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .CardHomePendingLeft > * {
+        width: 25px;
+    }
+
+.CardHomePendingRight {
+    grid-area: card-home-pending-right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 0.5em;
+}
+
+    .CardHomePendingRight a:last-child {
+        margin-left: 0 !important;
+    }
+
+.imgHomePending {
+    width: 90%;
+    margin: auto;
+}
+
+.NameDocumentPending {
+    color: rgb(187, 187, 188);
+    font-size: 0.72em;
+    margin-bottom: 0.25em;
+}
+
+.DateDocumentPending {
+    color: rgb(218, 93, 11);
+    background-color: rgba(218, 93, 11, 0.2);
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.PendingPages {
+    margin-top: auto;
+    margin-bottom: 0em;
+}
+
+/*******************************
+        MyTemplates    
+*******************************/
+.MyTemplatesLeft {
+    grid-area: myTemplatesLeft;
+}
+
+.MyTemplatesRight {
+    grid-area: myTemplatesRight;
+}
+
+.MyTemplates {
+    display: grid !important;
+    grid-template-columns: 17% 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        'myTemplatesLeft myTemplatesRight';
+    margin-bottom: -2em;
+}
+
+.TemplatePadding {
+    padding: 1em;
+}
+
+.Search {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SearchItem:nth-child(1) {
+    width: 75%;
+}
+
+.SearchItem .TextBox {
+    width: 90%;
+}
+
+.SearchItem:nth-child(2) {
+    text-align: center;
+}
+
+.SearchIcon {
+    background: #fff;
+    margin-left: 1em;
+    margin-top: 4px;
+    width: 37px;
+}
+
+.ContainerTemplatesDirectoriesCenter {
+    width: fit-content();
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.MyTemplatesDirectoriesTemplates {
+    display: grid !important;
+    grid-gap: 1em;
+    grid-template-columns: repeat(4, 15em);
+}
+
+.TableTemplateDirectoryFolder {
+    grid-template-columns: repeat(4, 13em) !important;
+    grid-column-gap: 2em !important;
+}
+
+.TableDirectoryCard {
+    height: auto;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1em 1em 1em 0em;
+    border: 2px orchid solid;
+    border-radius: 5px;
+}
+
+    .TableDirectoryCard:hover {
+        cursor: pointer;
+    }
+
+    .TableDirectoryCard *, TableTemplateDirectoryCard * {
+        font-size: 0.8em;
+    }
+
+    .TableDirectoryCard > *:first-child {
+        margin-left: 1em;
+        margin-right: 1em;
+        height: 30px;
+        width: 30px;
+    }
+
+.IconFolder {
+    height: 40px;
+    width: 40px;
+}
+/*******************************
+            Sign    
+*******************************/
+.ContentSign {
+    margin: 1em 0;
+}
+/*******************************
+            Others   
+*******************************/
+.imgPdfPreview {
+    width: 3.5em;
+    height: 3.5em;
+}
+/**************************
+     Delete Controller
+**************************/
+.DeleteButtons {
+    display: flex;
+    align-items: center;
+}
+
+    .DeleteButtons > * {
+        margin-right: 1em;
+    }
+/**************************
+ DeleteControllerDirectory
+**************************/
+.cardDirectory {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 400px;
+}
+
+    .cardDirectory > * {
+        margin-right: 1em;
+    }
+/**************************
+       Metodo Pago
+**************************/
+.PayMethodCard {
+    width: 75%;
+}
+
+.PayCard1 {
+    grid-area: payCard1;
+}
+
+.PayCard2 {
+    grid-area: payCard2;
+}
+
+.PayCard3 {
+    grid-area: payCard3;
+}
+
+.PayCard4 {
+    grid-area: payCard4;
+}
+
+.PayCard1, .PayCard2, .PayCard3, .PayCard4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FormPayMethods {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        'payCard1 payCard2 payCard3 payCard4';
+    margin-top: 3em;
+}
+/**************************
+       My Templates
+**************************/
+.TableTemplateDirectory {
+    display: grid !important;
+    grid-gap: 1em;
+    grid-template-columns: repeat(4, 15em);
+}
+
+.TableTemplateDirectoryCard {
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px orchid solid;
+    border-radius: 10px;
+}
+
+    .TableTemplateDirectoryCard:hover {
+        cursor: pointer;
+    }
+
+    .TableTemplateDirectoryCard > *:first-child {
+        width: 100%;
+        height: 6em;
+    }
+
+    .TableTemplateDirectoryCard > *:last-child {
+        text-align: left;
+        width: 90%;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+/**************************
+           Home
+**************************/
+.HomeLeft {
+    grid-area: homeLeft;
+    background-color: rgb(25, 40, 40);
+    background-image: linear-gradient(rgb(25, 40, 40), 30%, rgb(27, 21, 28));
+}
+
+    .HomeLeft .Line {
+        width: 100%;
+    }
+
+        .HomeLeft .Line hr {
+            color: rgba(255, 255, 255, 0.2);
+        }
+
+.HomeRight {
+    grid-area: homeRight;
+}
+
+.Home {
+    display: grid !important;
+    grid-template-columns: 17% 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'homeLeft homeRight';
+    background-color: rgb(19, 31, 31);
+    background-image: linear-gradient(rgb(19, 31, 31), rgb(12, 12, 15));
+}
+
+.HomeTopLeft {
+    grid-area: hometopleft;
+    border-style: solid;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 1px;
+    border-bottom-width: 0px;
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.HomeTopRight {
+    grid-area: hometopright;
+}
+
+    .HomeTopRight > *:first-child {
+        height: 100%;
+    }
+
+.HomeTop {
+    display: grid !important;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 'hometopleft hometopright';
+    height: 35%;
+}
+
+    .HomeTop > * {
+        height: 15.5em;
+    }
+
+.ListHomeCards {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Home Botton(MyContracts) */
+.HomeMyContracts {
+    border-style: solid;
+    border-left-width: 0px;
+    border-top-width: 1px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-color: rgba(255, 255, 255, 0.2);
+    height: 55%;
+    /*margin-bottom: 1em;*/
+}
+
+.ContentParentDirectoryMyContracts {
+    padding-top: 2.5em;
+}
+
+.ItemHomeContractDocument {
+    width: 90%;
+    height: 4.5em;
+    /*margin-top: 1em;*/
+}
+
+/* Card home contract */
+.CardHomeContractDocument {
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+    .CardHomeContractDocument:hover {
+        cursor: pointer;
+    }
+
+    .CardHomeContractDocument > *:first-child {
+        width: 100%;
+        height: 6em;
+    }
+
+    .CardHomeContractDocument > *:last-child {
+        text-align: left;
+        width: 90%;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+/***************************/
+
+.filtersHomeLeft {
+    grid-area: filterHomeLeft;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.filtersHomeRight {
+    grid-area: filterHomeRight;
+    width: max-content;
+}
+
+    .filtersHomeRight > :last-child {
+        margin-left: 10em;
+        color: rgba(187, 187, 188, 0.5);
+    }
+
+@media (min-width: 1500px) {
+    .filtersHomeRight > :last-child {
+        margin-left: 24em;
+    }
+}
+
+.filtersHome {
+    display: grid !important;
+    grid-column-gap: 1em;
+    grid-template-columns: 150px 400px;
+    grid-template-areas: 'filterHomeLeft filterHomeRight';
+    align-items: center;
+}
+
+.ButtonCreateNewFolder {
+    width: 230px;
+    font-size: 0.9em;
+}
+
+.CurrentPendingPage {
+    color: rgb(90, 90, 90) !important;
+}
+/**************************
+      Detail Template
+**************************/
+.detailTemplateLeft {
+    grid-area: detailTemplateLeft;
+}
+
+.detailTemplateRight {
+    grid-area: detailTemplateRight;
+}
+
+.detailTemplate {
+    display: grid !important;
+    grid-gap: 0;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'detailTemplateLeft detailTemplateRight';
+    margin-bottom: -1.2em;
+}
+
+.ImageTemplateView {
+    width: 75%;
+    margin: 0 auto;
+}
+
+/***********************
+    Detail Document
+***********************/
+#detailDocumentToolbar {
+    width: 30em;
+}
+
+/**************************************
+        FormSendDocumentParent
+**************************************/
+.ContentSendDocument {
+    display: grid;
+    grid-template-areas: 'CanvasPDFSendDocument StackToolBarRightSendDocument';
+}
+
+.StackToolBarRightSendDocument {
+    grid-area: StackToolBarRightSendDocument;
+}
+
+.CanvasPDFSendDocument {
+    grid-area: CanvasPDFSendDocument;
+}
+/*******************************
+        CreateYourContract    
+*******************************/
+.CreateYourCountractPanel .SimpleCard {
+    margin-bottom: -3em;
+    padding: 0.5em 0em;
+}
+
+.CreateYourCountractPanel .FileDrop {
+    height: 7em;
+}
+
+.CreateYourCountractPanel .TextBox {
+    width: 45em;
+    font-size: 0.8em;
+}
+
+.CreateYourCountractPanel .TextArea {
+    width: 44em;
+}
+
+.CreateYourCountractPanel .purpleButton, .CreateYourCountractPanel .pinkButton {
+    width: 15em;
+    margin-left: 22em;
+}
+/*******************************
+        EncryptContract    
+
+*******************************/
+#ContentEncriptContract .SimpleCard {
+    padding: 0.5em 0em;
+}
+
+#flwFileUploadEncryptContract *:first-child {
+    width: 25px;
+    margin-right: 0.5em;
+}
+
+#ContentEncriptContract .FileDrop {
+    height: 10em;
+    width: 30em;
+}
+
+#ContentEncriptContract .button {
+    width: 30em;
+}
+/*******************************
+          HirePlan    
+*******************************/
+#ContentHirePlan .purpleButton {
+    width: 10em;
+}
+
+#ContentHirePlan #cmdReturnHirePlan {
+    height: 30px;
+    padding: 0em 1em;
+}
+
+/*******************************
+          DetailTemplate    
+*******************************/
+.detailTemplateRight {
+    width: 32em;
+    margin-left: auto;
+}
+
+/**************************
+       Metodo Pago
+**************************/
+.FormPayMethods_Style2 {
+    display: grid !important;
+    grid-gap: 1em;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        'payCard1 payCard2 payCard3 payCard4';
+}
+
+#ContainerPaymentMethod {
+    padding-top: 5em;
+}
+/**************************
+       Add New Folder
+**************************/
+#FormLeftAddNewFolder {
+    width: 80%;
+}
+
+    #FormLeftAddNewFolder .ListPicker {
+        width: 26em;
+    }
+
+    #FormLeftAddNewFolder .purpleButton {
+        width: 10em;
+    }
+/*******************************
+            Others   
+*******************************/
+.imgPdfPreview_Style2 {
+    width: 6.25em;
+    height: 6.25em;
+}
+
+.FileDrop_Style2 {
+    height: 10em !important;
+    width: 30em !important;
+}
+
+.DivFileNameInFileDrop {
+    color: #FF9EF5 !important;
+}
+
+.DivFileNameInFileDrop :first-child {
+    width: 25px;
+    margin-right: 0.5em;
+}
+
+.ToolbarLeftWidth {
+    width: 75% !important;
+}
+/*******************************
+          Formularies    
+*******************************/
+.Container_Style2 {
+}
+
+    .Container_Style2 .ButtonCancel {
+        margin-left: 6.5em !important;
+    }
+/*******************************
+            InDirectory   
+*******************************/
+#cmdCreateFolderInDirectory {
+    margin-left: 2em;
+}
+
+.TrashIcon {
+    width: 50px;
+    height: 50px;
+}
+
+.gridPages_InDirectory {
+    margin-right: auto;
+    margin-left: 0em;
+}
+
+    .gridPages_InDirectory td {
+        padding: 0.5em 0em;
+    }
+
+/*******************************
+      SendDocumentNormal   
+*******************************/
+.StackToolBarRightSendDocument {
+    width: auto;
+    padding: 0em 2em;
+    margin-right: 0em;
+}
+
+    .StackToolBarRightSendDocument select, .StackToolBarRightSendDocument .button {
+        width: 30em;
+    }
+
+    .StackToolBarRightSendDocument .TextBox {
+        width: 29em;
+    }
+
+    .StackToolBarRightSendDocument textarea {
+        width: 35em;
+    }
+
+.ContainerToolbarRightSendDocument > * {
+    margin-bottom: 1em;
+}
+
+.ContainerToolbarRightSendDocument select {
+    text-align: center;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+.CanvasPDFSendDocument {
+    width: 41em;
+    margin-left: 35%;
+}
+/*******************************
+          SendDocument   
+*******************************/
+.ContainerToolbarRightSendDocument {
+    width: 31em !important;
+}
+
+.FormStackDataSigner {
+    border-bottom: 2px solid #AA139A;
+}
+
+.SubtitleAdditionalSigners {
+    border-top: 2px solid white;
+    padding-top: 1em;
+}
+
+/**********************************************
+     Capture Advanced Electronic Signature
+**********************************************/
+.FormLeftElectronicSignature {
+    /*width: 70%;*/
+}
+
+    .FormLeftElectronicSignature .TextBox {
+        width: 19em;
+    }
+
+    .FormLeftElectronicSignature .button {
+        width: 20em;
+    }
+
+.FormularyCaptureElectronicSignature {
+    padding-top: 6em;
+}
+/*******************************
+       CaptureSignature
+*******************************/
+.ContentCaptureSignarure .button {
+    width: 600px;
+}
+
+@media (min-width: 1500px) {
+    .ContentCaptureSignarure .ImageLeft {
+        margin-top: auto !important;
+    }
+}
+
+.ContentCaptureSignarure .ImageLeft {
+    margin-top: 40%;
+}
+
+/*******************************
+         Canvas pdf   
+*******************************/
+.ContentSign {
+    display: grid;
+    grid-template-areas: 'CanvasPDFSendDocument StackToolBarRightSendDocument';
+}
+
+.CanvasPDFContainer {
+    overflow-y: scroll;
+    height: 62.5em;
+    /*width: 37em;*/
+}
+/*******************************
+         DeleteController   
+*******************************/
+.ContainerDeleteController .Formulary {
+    width: 63%;
+}
+
+.ContainerDeleteController .purpleButton {
+    width: 70%;
+}
+/*******************************
+      CreateYourContract
+*******************************/
+.CreateYourCountractPanelLeft {
+    grid-area: CreateYourCountractPanelLeft;
+    width: 95%;
+}
+
+    .CreateYourCountractPanelLeft .Line {
+        width: 100%;
+    }
+
+        .CreateYourCountractPanelLeft .Line hr {
+            color: rgba(255, 255, 255, 0.2);
+        }
+
+.CreateYourCountractPanelRight {
+    grid-area: CreateYourCountractPanelRight;
+}
+
+.CreateYourCountractPanel {
+    display: grid !important;
+    grid-template-columns: 20% 1fr;
+    grid-column-gap: 1em;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        'CreateYourCountractPanelLeft CreateYourCountractPanelRight';
+    margin-bottom: -2em;
+}
+/*******************************
+       EncriptContract    
+*******************************/
+.EncriptPanel .StackInformationRight {
+    width: 48% !important;
+}
+
+#containerEncryprController {
+    background-color: rgb(15, 18, 20);
+    width: 100%;
+}
+
+@media (min-width: 1500px) {
+    #containerEncryprController {
+        max-width: 2000px !important;
+    }
+}
+
+
+.EncryptDocumentButton {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: center;
+    width: 25em !important;
+    padding: 0em 1em 0em 1em;
+}
+
+    .EncryptDocumentButton > * {
+        margin-left: auto;
+    }
+
+    .EncryptDocumentButton:hover {
+        background: #FF9EF5 !important;
+        border: none !important;
+        color: black !important;
+    }
+
+        .EncryptDocumentButton:hover * {
+            color: black !important;
+        }
+
+    .EncryptDocumentButton * {
+        color: black;
+    }
+
+.LabelRegrats {
+    font-family: 'averta';
+    font-size: 25px;
+}
+
+
+.FormularyAreasLeft_Style2 {
+    grid-area: formLeft;
+}
+
+    .FormularyAreasLeft_Style2 .purpleButton {
+        width: 14.5em;
+    }
+
+.FormularyAreasRight_Style2 {
+    grid-area: formRight;
+}
+
+.FormularyAreas_Style2 {
+    display: grid !important;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10em;
+    grid-template-areas: 'formLeft formRight';
+}
+
+.Formulary_Style2 * {
+    margin-top: -0.5em;
+}
+
+.ButtonsProfile > * {
+    width: 31em;
+}
+
+/*******************************
+      Margins And Paddings    
+*******************************/
+.MarginBottom0 {
+    margin-bottom: 0em !important;
+}
+
+.MarginLeft3 {
+    margin-left: 3em;
+}
+
+.MarginLeftRightAuto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.MarginTop1Childrens > * {
+    margin-top: 1em !important;
+}
+
+/*******************************
+            Height
+*******************************/
+.HeightToolbar {
+    height: 100% !important;
+    min-height: 47.5em !important;
+}
+
+/*******************************
+           Container    
+*******************************/
+.ContainerWithoutMargin {
+    max-width: 1720px;
+    width: 90%;
+}
+
+/*******************************
+            Cards   
+*******************************/
+.SimpleCard {
+    display: flex;
+}
+
+/*******************************
+    Style for profile user    
+*******************************/
+.profilePicture {
+    border-radius: 500em !important;
+}
+
+/*******************************
+           Other
+*******************************/
+.LabelRegrats_Style2 {
+    font-family: 'averta';
+    font-size: 1.5em;
+}
+
+/*************************
+        File drop
+**************************/
+.FileDropCorrect {
+    width: 27em;
+    height: 12em;
+    border: dashed 0.13em #607D8B;
+}
+
+.fileDropContent {
+    padding-top: 2em;
+}
+
+.iconFileDrop {
+    width: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+}
+
+/*******************************
+          Formularies    
+*******************************/
+.FormularyAreas_Style2 {
+    grid-template-columns: 45% 40% !important;
+}
+
+.FormFieldsButtons {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*******************************
+          VerifyPhone
+*******************************/
+.ContentVerifyPhone .Formulary {
+    width: 66%;
+}
+
+/*******************************
+         Canvas pdf   
+*******************************/
+.StackToolBarRightSendDocumentParent {
+    height: 62em !important;
+    overflow-y: scroll;
+}
+
+.ContentSendDocument, .ContentSign {
+    /*grid-template-columns: 10em auto;*/
+}
+
+.CanvasPDFContainer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*******************************
+      SendDocumentParent
+*******************************/
+.StackToolBarRightSendDocumentParent {
+    padding: 0em 2em;
+    margin-right: 0em !important;
+}
+
+    .StackToolBarRightSendDocumentParent select, .StackToolBarRightSendDocumentParent .button {
+        width: 30em;
+    }
+
+    .StackToolBarRightSendDocumentParent .TextBox {
+        width: 29em;
+    }
+
+    .StackToolBarRightSendDocumentParent textarea {
+        width: 35em;
+    }
+
+/*******************************
+      CreateYourContract
+*******************************/
+.PanelLeft .profilePicture {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*******************************
+            Footer    
+*******************************/
+.BarFooter {
+    margin-top: auto;
+    margin-bottom: 0em;
+}
+
+/*******************************
+   CaptureElectronicSignature
+*******************************/
+.ContainerCaptureElectronicSignature .TextBox {
+    width: 90%;
+}
+
+/*******************************
+           Register
+*******************************/
+.CurrentRegisterFormButton {
+    /*background: rgb(223, 255, 9) !important;
+    color: #000000 !important;*/
+    background: #000000 !important;
+    border: solid 1px rgb(223, 255, 9) !important;
+    color: #FFFFFF !important;
+}
+
+    .CurrentRegisterFormButton:hover {
+        background: #000000 !important;
+        border: solid 1px rgb(223, 255, 9) !important;
+        color: #FFFFFF !important;
+        /*background: #000000 !important;
+        border: solid 1px rgb(223, 255, 9) !important;
+        color: #FFFFFF !important;*/
+    }
